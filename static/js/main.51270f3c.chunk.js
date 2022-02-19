@@ -624,6 +624,12 @@
       begin_date: new Date(2022, 1, 21, 0, 0, 0, 0),
       weeks: 16,
       exclude_dates: [
+        new Date(2022, 4, 1),
+        new Date(2022, 4, 2),
+        new Date(2022, 4, 3),
+        new Date(2022, 4, 4),
+        new Date(2022, 4, 5),
+        new Date(2022, 4, 6),
       ]
     },
     M = function (e) {
