@@ -619,17 +619,20 @@
     C = (a(63), a(33)),
     D = (a(39), a(13)),
     P = {
-      name: '2021-2022 第二学期',
-      id: '2021-2022 sem2',
-      begin_date: new Date(2022, 1, 21, 0, 0, 0, 0),
+      name: '2022-2023 第一学期',
+      id: '2022-2023 sem1',
+      begin_date: new Date(2022, 9, 5, 0, 0, 0, 0),
       weeks: 16,
       exclude_dates: [
-        new Date(2022, 4, 1),
-        new Date(2022, 4, 2),
-        new Date(2022, 4, 3),
-        new Date(2022, 4, 4),
-        new Date(2022, 4, 5),
-        new Date(2022, 4, 6),
+        new Date(2022, 8, 10),  // 中秋
+        new Date(2022, 8, 12),  // 中秋
+        new Date(2022, 9, 1),   // 国庆
+        new Date(2022, 9, 2),   // 国庆
+        new Date(2022, 9, 3),   // 国庆
+        new Date(2022, 9, 4),   // 国庆
+        new Date(2022, 9, 5),   // 国庆
+        new Date(2022, 9, 6),   // 国庆
+        new Date(2022, 9, 7),   // 国庆
       ]
     },
     M = function (e) {
