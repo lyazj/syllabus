@@ -621,7 +621,7 @@
     P = {
       name: '2022-2023 第一学期',
       id: '2022-2023 sem1',
-      begin_date: new Date(2022, 9, 5, 0, 0, 0, 0),
+      begin_date: new Date(2022, 8, 5, 0, 0, 0, 0),
       weeks: 16,
       exclude_dates: [
         new Date(2022, 8, 10),  // 中秋
